@@ -1,0 +1,436 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; */
+
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.Card{
+  height: auto;
+  width: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  margin: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #ccc;
+  display: inline-block;
+}
+.Card img 
+{
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1em;
+}
+.Card h2
+{
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-family: Arial, sans-serif;
+}
+.student{
+  color: #888;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  border-radius: 10%;
+  padding: 0.5em;
+  background-color: #f4f4f4;
+  border:2px solid #ccc;
+  display: inline-block;
+  margin: 3px;
+}
+.jjj
+{
+  font-size: large;
+  font-family: Arial, sans-serif;
+  color: #888;
+  background-color: greenyellow;
+  margin: 1em;
+
+}
+.jjjj
+{
+  font-size: large;
+  font-family: Arial, sans-serif;
+  color: #888;
+  background-color: red;
+  margin: 1em;
+
+}
+.list-category
+{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #61dafbaa;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: lightcyan;
+
+}
+.list-item
+{
+  font-size: 2em;
+  list-style-type:none;
+  color: #ccc;
+  text-align: center;
+  margin: 0;
+  border: 2px solid;
+  height: auto;
+  width: auto;
+}
+.list-item li :hover{
+
+  cursor: pointer;
+}
+.setterDiv
+{
+  height: 30rem;
+  width: 50em;
+  background-color: #61dafbaa;
+  border : 2px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+.ValuePara
+{
+  height: 70px;
+  width: 70px;
+  background-color: #888;
+  color: black;
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.buttonsDiv
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  height : 70px;
+  width: 680px;
+  border-radius: 5px;
+  border:2px solid;
+}
+.but
+{
+  height: 40px;
+  width: auto;
+  font-size: 25px;
+  font-weight: bold;
+  background-color:#888;
+  color: black;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.color-picker-element
+{
+  height: auto;
+  width: auto;
+  border-radius: 5%;
+  border: 2px solid;
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-grow: 1;
+  background-color: #61dafbaa;  
+
+}
+
+.color-display
+{
+  height:200px;
+  width: 200px;
+  border: 2px solid;
+  transition: 0.25s ease;
+}
+.color-display p{
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.color-picker-element label
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.color-picker-element input
+{
+  height: 30px;
+  width: 200px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #888;
+  text-align: center;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.car{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  margin: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #ccc;
+  display: inline-block;
+}
+.Foods 
+{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  margin: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #ccc;
+  display: inline-block;
+}
+table
+{
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+
+  table th,
+  table td {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+  }
+
+  table th {
+    background-color: lightcyan;
+    font-weight: bold;
+  }
+
+  table tr:nth-child(even) {
+    background-color: #f4f4f4;
+  }
+
+  table tr:hover {
+    background-color: #ebebeb;
+  }
+
+  .toDoList
+  {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    margin: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em #ccc;
+
+  }
+  .toDoList input
+  {
+    height: 30px;
+    width: 200px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #888;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .toDoList input:hover
+  {
+    border-color:blueviolet;
+  }
+.taskList ul
+{
+  list-style-type: none;
+}
+.taskList li 
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #888;
+  background-color: #f4f4f4;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.taskList span 
+{
+  margin-right:10px  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.taskList
+{
+ 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+ 
+  overflow-y: scroll;
+  height: 300px;
+  width: 100%;
+
+  
+}
+.clockContainer
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  margin: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #ccc;
+  display: inline-block;
+  backdrop-filter: blur(10px);
+
+}
+.clock{
+  font-size: 6rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.componentBox
+{
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em;
+  margin: 1em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  box-shadow: 0 0 1em #ccc;
+  display: inline-block;
+}
+
+
+.buttonDivv
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  height : 70px;
+  width: auto;
+  border-radius: 5px;
+}
+.StopWatch
+{
+ 
+  border: 2px solid;
+  border-radius: 30%;
+  height: 250px ;
+  width: 300px;
+
+  
+}
